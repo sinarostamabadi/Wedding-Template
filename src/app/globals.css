@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f5ef;
+  --foreground: #292725;
+  --border: #e4d8c4;
+
+  --ivory: #f8f5ef;
+  --champagne: #d8c5a1;
+  --muted-gold: #927b61;
+  --deep-sage: #34483e;
+  --burgundy: #542f39;
+  --charcoal: #292725;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-ivory: var(--ivory);
+  --color-champagne: var(--champagne);
+  --color-muted-gold: var(--muted-gold);
+  --color-deep-sage: var(--deep-sage);
+  --color-burgundy: var(--burgundy);
+  --color-charcoal: var(--charcoal);
+  --font-sans: var(--font-vazirmatn);
+  --font-display: var(--font-amiri), "Times New Roman", serif;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top right, rgba(216, 197, 161, 0.28), transparent 36%),
+    radial-gradient(circle at bottom left, rgba(52, 72, 62, 0.08), transparent 42%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-vazirmatn), Tahoma, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--champagne) 55%, white);
+  color: var(--charcoal);
+}
