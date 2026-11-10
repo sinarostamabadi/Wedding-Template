@@ -31,6 +31,14 @@ const coverByKey: Record<string, string> = {
   "starry-night-v1": "/images/templates/starry-night-cover.jpg",
   "mixtape-love-v1": "/images/templates/mixtape-love-cover.jpg",
   "rose-bloom-v1": "/images/templates/rose-bloom-cover.jpg",
+  "moonlit-garden-v1": "/images/templates/moonlit-garden-cover.jpg",
+  "mirror-hall-v1": "/images/templates/mirror-hall-cover.jpg",
+  "qartas-v1": "/images/templates/qartas-cover.jpg",
+  "sky-lanterns-v1": "/images/templates/sky-lanterns-cover.jpg",
+  "heart-locket-v1": "/images/templates/heart-locket-cover.jpg",
+  "qajar-scroll-v1": "/images/templates/qajar-scroll-cover.jpg",
+  "retro-sixties-v1": "/images/templates/retro-sixties-cover.jpg",
+  "persepolis-seal-v1": "/images/templates/persepolis-seal-cover.jpg",
 };
 
 const highlightsByKey: Record<string, string[]> = {
@@ -109,6 +117,46 @@ const highlightsByKey: Record<string, string[]> = {
     "غنچه‌ی رزی که با نگه داشتن قلب می‌شکفد",
     "باران گلبرگ و نامه‌ی عاشقانه با عکس قلبی",
     "قصه‌ی عشق و ارسال پاسخ با یک قلب تپنده",
+  ],
+  "moonlit-garden-v1": [
+    "دروازه‌ی طلایی باغ که با لمس مهر ماه می‌گشاید",
+    "ماه طلایی، شب‌تاب‌های شناور و گلبرگ‌های یاس",
+    "کارت‌های شیشه‌ای تیره با تایپوگرافی حافظ و شمارش معکوس",
+  ],
+  "mirror-hall-v1": [
+    "روشن کردن سه شمعِ سفره‌ی عقد و درخشش تدریجی تالار",
+    "آینه‌ی تراشه‌تراشه با موج نور و قاب خاتم‌کاری",
+    "قاب طاقی عکس زوج با گره‌ی هشت‌پر و منوی شبانه",
+  ],
+  "qartas-v1": [
+    "جلدِ لاکی شنگرف که با لمس گره، ورق می‌خورد و باز می‌شود",
+    "ورق‌خوردن سه‌بعدی دو مرحله‌ای: بسم‌الله و شعر، سپس شمسه‌ی عکس زوج",
+    "پالت نسخه‌های خطی ایرانِ قدیم؛ لاجورد، شنگرف، طلایی و کاغذ کرم",
+  ],
+  "sky-lanterns-v1": [
+    "فانوسِ آویزان زوج را بیفروزید و با رهایش، آسمان پر از فانوس شو",
+    "پروازِ سه‌بعدی فانوس اصلی به سوی آسمان با درخشش تدریجی",
+    "پالت شبِ لاجوردی با درخششِ کهربایی و مرجانی و قاب عکس زوج",
+  ],
+  "heart-locket-v1": [
+    "آویز قلبی که مثل یک آویز واقعی روی لولا باز می‌شود",
+    "عکس زوج در قاب قلبی با درخشش و انفجار نور",
+    "حکاکی نام و تاریخ روی درِ آویز و پاسخ با قفل قلب",
+  ],
+  "qajar-scroll-v1": [
+    "طوماری که با شکستن مهر موم باز می‌شود",
+    "قباله با تذهیب طلایی، بته‌جقه و قاب طاقی",
+    "سفره‌ی عقد، تمبر یادگاری و پاسخ مهرشده",
+  ],
+  "retro-sixties-v1": [
+    "تلویزیون چوبی با برفک و نوار رنگی قبل از پخش دعوت‌نامه",
+    "کوپن‌های جشن، تقویم ورقی و عکس کداکی با تاریخ نارنجی",
+    "پیکان عروس گل‌زده، تلفن قرصی و ریسه‌های رنگی",
+  ],
+  "persepolis-seal-v1": [
+    "مهر استوانه‌ای هخامنشی که روی لوح گلی غلتانده می‌شود",
+    "خط میخی، فروهر بالدار، گل‌نقش و ستون‌های تخت جمشید",
+    "سه پیمان کهن، معنای اوستایی ماه و آتشدان گواهی",
   ],
 };
 

@@ -388,5 +388,208 @@ export const templateCatalog: TemplateCatalogItem[] = [
       musicTitle: "ترانه‌ی عاشقانه‌ی ما",
     },
   },
+  {
+    key: "moonlit-garden-v1",
+    name: "باغ مهتاب",
+    version: "1.0.0",
+    description:
+      "دعوت‌نامه‌ی شبانه با دروازه‌ی طلایی باغ ایرانی؛ مهر ماه را لمس کنید تا درها بگشایند و شبِ پیوند با شب‌تاب‌ها، گلبرگ‌های یاس و نوای بلبل آغاز شود.",
+    categorySlugs: ["luxury", "romantic", "nature"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#0a1410 0%,#1d3b2a 48%,#e9c87c 100%)",
+    defaultCustomization: {
+      primaryColor: "#e9c87c",
+      secondaryColor: "#a9c4b0",
+      backgroundColor: "#0a1410",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«بنشین بر لب جوی و گذر عمر نظر کن»",
+      blessingLine: "در باغ پیوند ما، زیباترین شکوفه، حضور شماست",
+      dressCode:
+        "پوشش رسمی شب با الهام از باغ ایرانی؛ طیف سبز یشمی، طلاییِ مهتاب، عاجی و گل‌بهی.",
+      musicTitle: "نوای بلبل و تار",
+    },
+  },
+  {
+    key: "mirror-hall-v1",
+    name: "تالار آینه",
+    version: "1.0.0",
+    description:
+      "دعوت‌نامه‌ی آینه‌کاری ایرانی؛ شمع‌های سفره‌ی عقد را یکی‌یکی بیفروزید تا با هر شمع، تراشه‌های بلور تالار موجی از نور بگیرند و دعوت‌نامه در آینه نمایان شود.",
+    categorySlugs: ["luxury", "traditional", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(160deg,#191321 0%,#3d2b52 48%,#e6c66e 100%)",
+    defaultCustomization: {
+      primaryColor: "#e6c66e",
+      secondaryColor: "#dfe6ee",
+      backgroundColor: "#191321",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«سال‌ها دل طلبِ جامِ جم از ما می‌کرد، و آنچه خود داشت ز بیگانه تمنا می‌کرد»",
+      blessingLine: "حضور گرمِ شما، روشن‌ترین چراغِ این تالار است",
+      dressCode:
+        "پوشش رسمی شب با تم بلور و طلایی. خواهشمندیم بانوان محترم به احترام عروس، از لباس کاملاً سفید پرهیز نمایند.",
+      musicTitle: "نوای سه‌تار و عود",
+    },
+  },
+  {
+    key: "qartas-v1",
+    name: "قرطاس",
+    version: "1.0.0",
+    description:
+      "دعوت‌نامه به شکل نسخه‌ی خطی ایرانِ قدیم؛ جلدِ لاکی شنگرف را بگشایید، ورق بزنید و شعر حافظ، شمسه‌ی عکس زوج و جزئیات جشن را در قرطاسی تذهیب‌شده با پالت لاجورد و شنگرف بخوانید.",
+    categorySlugs: ["traditional", "classic", "vintage"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(160deg,#16214e 0%,#26336e 45%,#b23a2e 100%)",
+    defaultCustomization: {
+      primaryColor: "#d9b45b",
+      secondaryColor: "#26336e",
+      backgroundColor: "#16214e",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«بده ساقی می باقی که در جنت نخواهی یافت»",
+      blessingLine: "حضور شما، نگارین‌ترین ورقِ این دیوان است",
+      dressCode:
+        "پوشش رسمی با الهام از نسخه‌های خطی ایران؛ طیف لاجوردی، شنگرف، طلایی و کرم. لطفاً از لباس کاملاً سفید پرهیز کنید.",
+      musicTitle: "نوای تار و کمانچه",
+    },
+  },
+  {
+    key: "sky-lanterns-v1",
+    name: "شبِ فانوس",
+    version: "1.0.0",
+    description:
+      "دعوت‌نامه‌ی شبِ رهاییِ فانوس‌ها؛ فانوسِ آویزانِ زوج را بیفروزید و رها کنید تا در آن لحظه، آسمان پر از فانوس‌های شناور شود و دعوت‌نامه در نورِ کهربایی گشوده گردد.",
+    categorySlugs: ["romantic", "luxury", "dark"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#101a3c 0%,#1c2c5e 48%,#ffb347 100%)",
+    defaultCustomization: {
+      primaryColor: "#ffb347",
+      secondaryColor: "#101a3c",
+      backgroundColor: "#101a3c",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«هزار فانوس برمی‌داریم، سوی آسمانِ آرزو»",
+      blessingLine: "حضور شما، روشن‌ترین فانوسِ این آسمان است",
+      dressCode:
+        "پوشش رسمی شب با تمِ شبِ فانوس؛ طیف لاجوردی، کهربایی، مرجانی و کرم. لطفاً از لباس کاملاً سفید پرهیز کنید.",
+      musicTitle: "نوای تار و آوازِ شب",
+    },
+  },
+  {
+    key: "heart-locket-v1",
+    name: "آویزِ دل",
+    version: "1.0.0",
+    description:
+      "آویز قلب رزگلدی که از زنجیر تاب می‌خورد؛ قفلش را باز کنید تا درِ آویز روی لولا بچرخد، عکس زوج در قاب قلبی بدرخشد و نام و تاریخ روی درِ آویز حک شده باشد.",
+    categorySlugs: ["romantic", "luxury", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#2f1020 0%,#6b2b3c 48%,#e8a184 100%)",
+    defaultCustomization: {
+      primaryColor: "#e8a184",
+      secondaryColor: "#c96f6a",
+      backgroundColor: "#2f1020",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«دو قلب که به هم گره خوردند، ابدی شدند»",
+      blessingLine: "حضور شما، درخشان‌ترین نگینِ این آویز است",
+      dressCode:
+        "پوشش رسمی با پالتِ عاشقانه؛ طیف شرابیِ عمیق، رزگلد، پودری و مرجانی. لطفاً از لباس کاملاً سفید پرهیز کنید.",
+      musicTitle: "نوای پیانوی عاشقانه",
+    },
+  },
+  {
+    key: "qajar-scroll-v1",
+    name: "قباله‌ی قجری",
+    version: "1.0.0",
+    description:
+      "طوماری به سبک ایران قدیم با مهر موم لاکی؛ با شکستن مهر، قباله‌ی دعوت با تذهیب طلایی و بته‌جقه باز می‌شود و سفره‌ی عقد، تمبر یادگاری و پاسخ مهرشده نمایان می‌شود.",
+    categorySlugs: ["traditional", "vintage", "luxury"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#1a0e08 0%,#2a1810 40%,#8c1c13 72%,#c8a24a 100%)",
+    defaultCustomization: {
+      primaryColor: "#c8a24a",
+      secondaryColor: "#8c1c13",
+      backgroundColor: "#2a1810",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«من از آن روز که دربند توام آزادم، پادشاهم که به دست تو اسیر افتادم»",
+      blessingLine:
+        "قدوم سبزتان چراغ این مجلس است؛ سایه‌تان بر سر این پیوند، مایه‌ی برکت و شادی.",
+      dressCode:
+        "پوشش رسمی با الهام از رنگ‌های ایران قدیم؛ لاجوردی، فیروزه‌ای، لاکی و زرین.",
+      musicTitle: "نوای تار — بیات اصفهان",
+    },
+  },
+  {
+    key: "retro-sixties-v1",
+    name: "عروسی دهه‌ی شصت",
+    version: "1.0.0",
+    description:
+      "نوستالژی دهه‌ی شصت ایران؛ تلویزیون چوبی را روشن کنید تا بعد از برفک و نوار رنگی، دعوت‌نامه پخش شود. با کوپن‌های جشن، تقویم ورقی، پیکان عروس، تلفن قرصی و ریسه‌های رنگی.",
+    categorySlugs: ["vintage", "traditional", "modern"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(160deg,#efe6d2 0%,#d9a441 38%,#c4562b 70%,#4a3426 100%)",
+    defaultCustomization: {
+      primaryColor: "#c4562b",
+      secondaryColor: "#d9a441",
+      backgroundColor: "#efe6d2",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«گل اومد بهار اومد، میرم به پیشوازش؛ عروس خانم قشنگه، داماد نمی‌شه نازش»",
+      blessingLine:
+        "مبارک باشه ایشالا! قدمتون روی چشم؛ مثل همون عروسی‌های قدیمی، با صفا و بی‌ریا منتظرتونیم.",
+      dressCode:
+        "حال‌وهوای دهه‌ی شصت! کت‌وشلوار ساده، پیراهن یقه‌دار و رنگ‌های گرم مثل قهوه‌ای، خردلی، یشمی و آجری.",
+      musicTitle: "نوار «مبارک بادا» — سمت الف",
+    },
+  },
+  {
+    key: "persepolis-seal-v1",
+    name: "لوح پارسه",
+    version: "1.0.0",
+    description:
+      "ایران باستان و هخامنشی؛ مهر استوانه‌ای را روی لوح گِلی بغلتانید تا نام زوج با خط میخی نقش ببندد، لوح پخته شود و فرمان پیوند با سه پیمان کهن، ستون‌های تخت جمشید و آتشدان گواهی گشوده شود.",
+    categorySlugs: ["traditional", "luxury", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#efe5cf 0%,#c9a13b 40%,#9c4a2a 70%,#1f3a6b 100%)",
+    defaultCustomization: {
+      primaryColor: "#c9a13b",
+      secondaryColor: "#1f3a6b",
+      backgroundColor: "#e8dcc4",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«به نام خداوند جان و خرد، کزین برتر اندیشه برنگذرد»",
+      blessingLine: "شاد زی و دیر زی! حضور شما، فرخنده‌ترین گواه پیمان ماست.",
+      dressCode:
+        "پوشش رسمی با الهام از کاشی‌های لعابی شوش و تخت جمشید؛ لاجوردی، فیروزه‌ای، زرین و سفالی.",
+      musicTitle: "نوای چنگ و نی",
+    },
+  },
 ];
 

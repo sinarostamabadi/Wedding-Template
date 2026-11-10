@@ -7,7 +7,9 @@ export function TemplateDetails({ template }: { template: TemplateEntry }) {
     template.defaultCustomization.primaryColor,
     template.defaultCustomization.secondaryColor,
     template.defaultCustomization.backgroundColor,
-  ].filter(Boolean) as string[];
+  ]
+    .filter(Boolean) as string[];
+  const uniquePalette = [...new Set(palette)];
 
   return (
     <div className="space-y-6">
@@ -37,7 +39,7 @@ export function TemplateDetails({ template }: { template: TemplateEntry }) {
       <div>
         <p className="mb-2 text-xs font-medium text-charcoal/50">پالت رنگی</p>
         <div className="flex gap-2">
-          {palette.map((color) => (
+          {uniquePalette.map((color) => (
             <span
               key={color}
               title={color}
