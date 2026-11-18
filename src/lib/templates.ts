@@ -39,6 +39,20 @@ const coverByKey: Record<string, string> = {
   "qajar-scroll-v1": "/images/templates/qajar-scroll-cover.jpg",
   "retro-sixties-v1": "/images/templates/retro-sixties-cover.jpg",
   "persepolis-seal-v1": "/images/templates/persepolis-seal-cover.jpg",
+  "yadegari-diary-v1": "/images/templates/yadegari-diary-cover.jpg",
+  "gilded-deco-v1": "/images/templates/gilded-deco-cover.jpg",
+  "orsi-palace-v1": "/images/templates/orsi-palace-cover.jpg",
+  "silk-knot-v1": "/images/templates/silk-knot-cover.jpg",
+  "aurora-prism-v1": "/images/templates/aurora-prism-cover.jpg",
+  "magnolia-waltz-v1": "/images/templates/magnolia-waltz-cover.jpg",
+  "pearl-silk-v1": "/images/templates/pearl-silk-cover.jpg",
+  "wisteria-terrace-v1": "/images/templates/wisteria-terrace-cover.jpg",
+  "ink-bloom-v1": "/images/templates/ink-bloom-cover.jpg",
+  "arya-paradise-v1": "/images/templates/arya-paradise-cover.jpg",
+  "pars-waltz-v1": "/images/templates/pars-waltz-cover.jpg",
+  "twin-orbit-v1": "/images/templates/twin-orbit-cover.jpg",
+  "carpet-iran-v1": "/images/templates/carpet-iran-cover.jpg",
+  "love-loom-v1": "/images/templates/love-loom-cover.jpg",
 };
 
 const highlightsByKey: Record<string, string[]> = {
@@ -158,6 +172,76 @@ const highlightsByKey: Record<string, string[]> = {
     "خط میخی، فروهر بالدار، گل‌نقش و ستون‌های تخت جمشید",
     "سه پیمان کهن، معنای اوستایی ماه و آتشدان گواهی",
   ],
+  "yadegari-diary-v1": [
+    "دفتر یادگاری گلدار با قفل و کلیدی که می‌چرخد و جلدش باز می‌شود",
+    "نامه‌ی «ملالی نیست جز دوری شما»، عکس چسب‌خورده و گل خشک لای دفتر",
+    "نامه‌ی قلبی تاشده، کارت پستال با تمبر و برگه‌ی یادگاری مهمان",
+  ],
+  "pearl-silk-v1": [
+    "پاکت حریری پودری با قفل و رشته‌ی مروارید که باز می‌شود",
+    "کنار رفتن حریر و درخشش عکس زوج با نور مرواریدی",
+    "پالت رزکوارتز و شامپاینی با پاسخ مرواریدی",
+  ],
+  "wisteria-terrace-v1": [
+    "تراس رمانتیک با خوشه‌های آویزان ویستریا و منگوله‌ی طلایی",
+    "کنار رفتن پرده‌ی بنفش و نمایان شدن عکس زوج",
+    "سوییچر سه‌حال‌وهوا، فصل‌های عاشقی، عهدنامه و هدیه‌ی شکوفه",
+  ],
+  "ink-bloom-v1": [
+    "حوض آب با چکاندن قطره و شکوفایی جوهر در آب",
+    "بیرون آمدن عکس زوج از دل جوهر و برگه‌های کاغذ شناور",
+    "ثبت حضور با نگه‌داشتن انگشت و نقش بستن اثر انگشت",
+  ],
+  "arya-paradise-v1": [
+    "دروازه‌ی لاجوردی پردیس با مهرِ زرینِ گل‌نقش که باز می‌شود",
+    "سروهای آریایی، چهار گاه شب و تقویم پیمان",
+    "سوییچر سه‌حال‌وهوا و پیشکشِ نیلوفر و انار برای RSVP",
+  ],
+  "pars-waltz-v1": [
+    "دروازه‌ی آپادانا با ستون گاوسر و مهرِ فروهرِ زرین",
+    "ساختار رسمی والسِ مگنولیا با تم کاملاً هخامنشی",
+    "سه‌حال‌وهوای بارگاه، گاه‌های شب و پیشکشِ نیلوفر برای RSVP",
+  ],
+  "twin-orbit-v1": [
+    "صحنه‌ی سه‌بعدی Three.js با گوی بلورین و صورت‌فلکی قلب",
+    "دو حلقه‌ی درهم‌تنیده و باز شدن مدار با لمس",
+    "انیمیشن‌های Motion برای نامه، برنامه و RSVP",
+  ],
+  "carpet-iran-v1": [
+    "فرش‌نقشه‌ی ایران با پهن‌شدن انیمیشنی و مهر زرین",
+    "طاق آزادی‌وار برای عکس زوج و قاب حاشیهٔ فرش",
+    "پالت هفت‌رنگ استان‌ها و RSVP با تم قالی ایرانی",
+  ],
+  "love-loom-v1": [
+    "عکس زوج در طاق آزادی با قاب فرش لاکی",
+    "حاشیه فرش، روبان لاکی و نوار هفت‌رنگ",
+    "پهن‌شدن تار و پود با Motion و RSVP کارگاهی",
+  ],
+  "gilded-deco-v1": [
+    "بادبزن طلاییِ سیزده‌پره که با لمس می‌گشاید و می‌بندد",
+    "کارت عاجی با قاب طاقی، فویل طلایی و مونوگرام لوزی",
+    "تایم‌لاین شب جشن و پاسخ با مهر طلایی",
+  ],
+  "orsi-palace-v1": [
+    "پنجره‌ی اُرسیِ سه‌لَت با شیشه‌های هفت‌رنگ که به بالا می‌لغزد",
+    "تغییر تابش نور تالار بین آفتاب صبح، طلایی عصر و مهتاب شب",
+    "حوض فیروزه‌ای آرزوها با موج آب برای ثبت حضور و دعای خیر",
+  ],
+  "silk-knot-v1": [
+    "رشته‌ی ابریشمِ سرنوشت که با لمس گره می‌خورد و کاغذ کالک را کنار می‌زند",
+    "سوییچر ۳ بافت کاغذ ملموس (کتان خام، حریر رز، سنگ مهتاب) و دست‌نوشته شخصی",
+    "کارت پاسخ با مهر برجستهٔ خشک (Blind Emboss) و واژهٔ یادگار",
+  ],
+  "aurora-prism-v1": [
+    "منشورِ بلورینِ شیشه‌ای (Liquid Glass) با هم‌گراییِ دو مدارِ نور",
+    "سوییچر ۳ هاله‌ی نوری (رزکوارتز، صدف مهتابی، یاقوت مدرن) و کاروسل فصل‌های آشنایی",
+    "صدور کارتِ ورودِ بلورینِ هولوگرافیک (Crystal Guest Pass) پس از ثبت حضور",
+  ],
+  "magnolia-waltz-v1": [
+    "طاقِ گلخانه‌ی بلورین با شاخه‌های گل مگنولیا، بارش گلبرگ و روبان ابریشمی موم‌مهر",
+    "تب‌های عاشقانه‌ی «فصل‌های عاشقی» و «عهدنامه‌ی عروس و داماد» به همراه تقویم قلب‌دار",
+    "سوییچر ۳ حال‌وهوای باغ (سپیده‌دم رز، باغ طلایی، شمع و مخمل) و ثبت حضور با مهر رزگلد",
+  ],
 };
 
 export const commonFeatures = [
@@ -190,12 +274,25 @@ function toEntry(item: TemplateCatalogItem): TemplateEntry {
 
 export const templates: TemplateEntry[] = templateCatalog.map(toEntry);
 
+/** فعلاً از لیست قالب‌ها پنهان؛ پیش‌نمایش مستقیم با URL هنوز کار می‌کند */
+export const hiddenFromListKeys = new Set([
+  "orsi-palace-v1", // ارسیِ هفت‌رنگ
+  "gilded-deco-v1", // عصر طلایی
+  "mirror-hall-v1", // تالار آینه
+  "carpet-iran-v1", // فرشِ ایران
+  "twin-orbit-v1", // مدارِ دو قلب
+]);
+
+export const listedTemplates = templates.filter(
+  (item) => !hiddenFromListKeys.has(item.key),
+);
+
 export function getTemplateBySlug(slug: string) {
   return templates.find((item) => item.slug === slug);
 }
 
 export const usedCategories = categories.filter((category) =>
-  templates.some((t) => t.categorySlugs.includes(category.slug)),
+  listedTemplates.some((t) => t.categorySlugs.includes(category.slug)),
 );
 
 /** تاریخ ثابت تا HTML ایستا و کلاینت یکسان باشند */

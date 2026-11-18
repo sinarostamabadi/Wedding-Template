@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import { TemplateCard } from "@/components/template-card";
-import { templates, usedCategories } from "@/lib/templates";
+import { TemplatesShowcaseLayout } from "@/components/templates-showcase-layout";
+import { listedTemplates, usedCategories } from "@/lib/templates";
 
 export function TemplateGallery() {
   const [category, setCategory] = useState<string | null>(null);
   const visible = category
-    ? templates.filter((t) => t.categorySlugs.includes(category))
-    : templates;
+    ? listedTemplates.filter((t) => t.categorySlugs.includes(category))
+    : listedTemplates;
 
   const chip = (active: boolean) =>
     `rounded-full px-4 py-2 text-sm transition ${
@@ -18,14 +19,14 @@ export function TemplateGallery() {
     }`;
 
   return (
-    <>
-      <div className="mt-8 flex flex-wrap gap-2">
+    <TemplatesShowcaseLayout>
+      <div className="mt-6 flex flex-wrap gap-2">
         <button
           type="button"
           onClick={() => setCategory(null)}
           className={chip(category === null)}
         >
-          همه ({templates.length})
+          همه ({listedTemplates.length})
         </button>
         {usedCategories.map((item) => (
           <button
@@ -50,6 +51,6 @@ export function TemplateGallery() {
           قالبی در این دسته‌بندی پیدا نشد.
         </div>
       ) : null}
-    </>
+    </TemplatesShowcaseLayout>
   );
 }

@@ -591,5 +591,368 @@ export const templateCatalog: TemplateCatalogItem[] = [
       musicTitle: "نوای چنگ و نی",
     },
   },
-];
+  {
+    key: "gilded-deco-v1",
+    name: "عصر طلایی",
+    version: "1.0.0",
+    description:
+      "آرت‌دکوی عصر طلایی؛ بادبزن طلاییِ سیزده‌پره با لمس شما می‌گشاید، کارت عاجی با قاب طاقی و مونوگرام، تایم‌لاین شب جشن و پاسخ با مهر طلایی.",
+    categorySlugs: ["luxury", "classic", "dark", "modern"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#0b0a09 0%,#c9a227 42%,#f4e3b0 68%,#1d1915 100%)",
+    defaultCustomization: {
+      primaryColor: "#c9a227",
+      secondaryColor: "#8a6a1f",
+      backgroundColor: "#0b0a09",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«درخشش یک عمر، در یک شبِ طلایی»",
+      blessingLine:
+        "طلایی‌ترین شب زندگی‌مان را با حضورتان کامل کنید؛ جای شما همیشه در خاطره‌ی این شب می‌درخشد.",
+      dressCode:
+        "پوشش رسمی با درخششی از عصر طلایی: مشکی، طلایی، زمردی و عاجی. لطفاً از پوشش تمام‌سفید پرهیز کنید.",
+      musicTitle: "گرامافون · نوای جاز تهران",
+    },
+  },
+  {
+    key: "orsi-palace-v1",
+    name: "ارسیِ هفت‌رنگ",
+    version: "1.0.0",
+    description:
+      "عمارت ایرانی با پنجره‌ی اُرسیِ متحرک و شیشه‌های هفت‌رنگ؛ با لمس چفت طلایی، اُرسی بالا می‌رود، پرتوهای یاقوتی و زمردی بر تالار می‌تابد و حوض فیروزه آرزوی مهمانان را ثبت می‌کند.",
+    categorySlugs: ["luxury", "traditional", "romantic", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#140d09 0%,#c82846 32%,#e59a28 58%,#1e8c8a 82%,#d4a84f 100%)",
+    defaultCustomization: {
+      primaryColor: "#d4a84f",
+      secondaryColor: "#1e8c8a",
+      backgroundColor: "#140d09",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«رواقِ منظرِ چشمِ من آشیانه‌ی توست، کرم نما و فرود آ که خانه خانه‌ی توست»",
+      blessingLine:
+        "در پناهِ نورِ هفت‌رنگ و طاقِ بلندِ عشق، قدومِ پرمهرتان روشنایی‌بخشِ شبِ پیوندِ ماست.",
+      dressCode:
+        "پوشش رسمی شب با الهام از شیشه‌های هفت‌رنگِ اُرسی؛ طیف یاقوتی، زمردی، کهربایی، لاجوردی و حریری عاجی.",
+      musicTitle: "سنتور و تار · چهارمضرابِ نارنجستان",
+    },
+  },
+  {
+    key: "silk-knot-v1",
+    name: "گرهِ ابریشم",
+    version: "1.0.0",
+    description:
+      "نئومینیمالیسم عاشقانه روی کاغذ کتان با لفافِ کالکِ مات؛ رشته‌ی ابریشم سرخ را لمس کنید تا گرهِ ابدی بسته شود، لفاف کنار برود و دعوت‌نامه با تایپوگرافی مجسمه‌گونه و مهر برجستهٔ خشک نمایان شود.",
+    categorySlugs: ["minimal", "romantic", "modern", "luxury"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#f6f2ec 0%,#e6d2c9 45%,#b86456 78%,#1d1816 100%)",
+    defaultCustomization: {
+      primaryColor: "#b86456",
+      secondaryColor: "#8c7a6b",
+      backgroundColor: "#f6f2ec",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«در سادگیِ بودنِ با تو، تمامِ جهان خلاصه شده است»",
+      blessingLine:
+        "حضورِ آرام و پرمهرِ شما، زیباترین سطرِ کتابِ زندگیِ ماست.",
+      dressCode:
+        "مینیمال و شاعرانه (Minimal Formal)؛ پارچه‌های لطیف با تناژهای رز خاکی، پودری، سنگی، زیتونی مات و اسپرسو.",
+      musicTitle: "سولوی پیانو و ویلنسل · قطعهٔ ابریشم",
+    },
+  },
+  {
+    key: "aurora-prism-v1",
+    name: "منشورِ بلورین",
+    version: "1.0.0",
+    description:
+      "دعوت‌نامهٔ مدرن و عاشقانه با شیشه‌های مایع (Liquid Glass) و هاله‌های شفق؛ با لمس منشور، دو مدارِ نورِ زوج هم‌گرا می‌شوند، قصهٔ آشنایی ورق می‌خورد و کارتِ ورودِ بلورین صادر می‌گردد.",
+    categorySlugs: ["modern", "romantic", "luxury", "dark"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#120b18 0%,#2b1938 38%,#f4a6b8 72%,#f5d69b 100%)",
+    defaultCustomization: {
+      primaryColor: "#f4a6b8",
+      secondaryColor: "#f5d69b",
+      backgroundColor: "#120b18",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«دو مدارِ سرگردان بودیم؛ در جاذبه‌ی عشق به یک ستاره بدل شدیم»",
+      blessingLine:
+        "درخششِ این شب با حضورِ پرمهرِ شما به ابدیت پیوند می‌خورد.",
+      dressCode:
+        "استایل رسمی و مدرنِ شب (Modern Black-Tie & Glamour)؛ طیف رزکوارتز، شامپاینی، یاسی بلورین و مخمل شب.",
+      musicTitle: "سمفونیِ شفق · پیانو و زهیِ مدرن",
+    },
+  },
+  {
+    key: "magnolia-waltz-v1",
+    name: "والسِ مگنولیا",
+    version: "1.0.0",
+    description:
+      "گلخانه‌ی بلورین با شاخه‌های شکوفای مگنولیا و بارش گلبرگ‌های رز؛ با لمس مهرِ مومِ رزگلد، روبان ابریشمی باز می‌شود و نامه‌ی عاشقانه، عهدنامه‌ی عروس و داماد و تقویم قلب‌دار نمایان می‌گردد.",
+    categorySlugs: ["romantic", "floral", "luxury", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#fcf7f4 0%,#f4cfd6 42%,#c79d59 74%,#732235 100%)",
+    defaultCustomization: {
+      primaryColor: "#b5566a",
+      secondaryColor: "#c79d59",
+      backgroundColor: "#fcf7f4",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«مرا عهدیست با جانان که تا جان در بدن دارم، هوادارانِ کویش را چو جانِ خویشتن دارم»",
+      blessingLine:
+        "در باغِ زندگیِ ما، زیباترین شکوفه، لبخند و حضورِ پرمهرِ شماست.",
+      dressCode:
+        "پوشش رسمی و رمانتیک (Garden Formal)؛ طیف رز پودری، شامپاینی، شرابی مخملی، سبز مریم‌گلی و مشکی رسمی.",
+      musicTitle: "والسِ مگنولیا · سولوی ویولن و پیانو",
+    },
+  },
+  {
+    key: "yadegari-diary-v1",
+    name: "دفتر یادگاری",
+    version: "1.0.0",
+    description:
+      "عاشقانه‌ی دهه‌ی شصت؛ کلید قفل دفتر یادگاری گلدار را بچرخانید تا جلدش باز شود و نامه‌ی «ملالی نیست جز دوری شما»، عکس چسب‌خورده، گل خشک لای دفتر، نامه‌ی قلبی تاشده، کارت پستال و برگه‌ی یادگاری مهمان پیدا شود.",
+    categorySlugs: ["romantic", "vintage", "traditional"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(160deg,#f7e6dc 0%,#e58a9a 38%,#b8475a 68%,#1f3c88 100%)",
+    defaultCustomization: {
+      primaryColor: "#b8475a",
+      secondaryColor: "#1f3c88",
+      backgroundColor: "#f4e1d6",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«دلم را لای این دفتر گذاشتم، به یادگار، برای تو»",
+      blessingLine:
+        "این دفتر را نگه دار؛ روزی که موهایمان سپید شد، با هم ورقش می‌زنیم",
+      dressCode:
+        "حال‌وهوای عاشقانه‌ی دهه‌ی شصت؛ صورتی چرک، زرشکی، کرم و یشمی. پیراهن گلدار و کت‌وشلوار ساده، خیلی هم عالی!",
+      musicTitle: "نوار ترانه‌های عاشقانه‌ی قدیمی",
+    },
+  },
+  {
+    key: "pearl-silk-v1",
+    name: "مروارید و حریر",
+    version: "1.0.0",
+    description:
+      "پاکت حریری پودری با قفل مرواریدی؛ گره مروارید را باز کنید تا حریر کنار برود، عکس زوج بدرخشد و دعوت‌نامه‌ای لطیف با پالت رزکوارتز و شامپاینی نمایان شود.",
+    categorySlugs: ["romantic", "luxury", "floral"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(160deg,#fff8f4 0%,#f3d6dc 40%,#c47884 72%,#d4b896 100%)",
+    defaultCustomization: {
+      primaryColor: "#c47884",
+      secondaryColor: "#d4b896",
+      backgroundColor: "#f7ece8",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«تو را در حریر دل پیچیدم، با مرواریدِ نگاهت گره زدم»",
+      blessingLine: "حضور شما، درخشان‌ترین مروارید این شب است",
+      dressCode:
+        "پوشش رسمی و لطیف؛ پودری، رزکوارتز، عاجی و شامپاینی. لطفاً از لباس کاملاً سفید پرهیز کنید.",
+      musicTitle: "والس آرام پیانو و ویولن",
+    },
+  },
+  {
+    key: "wisteria-terrace-v1",
+    name: "تراسِ ویستریا",
+    version: "1.0.0",
+    description:
+      "تراس رمانتیک با خوشه‌های آویزان ویستریا؛ منگوله‌ی طلایی را لمس کنید تا پرده‌ی بنفش کنار برود، عکس زوج بدرخشد و نامه‌ی عاشقانه با سوییچر حال‌وهوا، فصل‌های عشق و عهدنامه نمایان شود.",
+    categorySlugs: ["romantic", "floral", "luxury", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#f7f4fb 0%,#e4d4f5 38%,#8b6bb0 70%,#c4a46a 100%)",
+    defaultCustomization: {
+      primaryColor: "#8b6bb0",
+      secondaryColor: "#c4a46a",
+      backgroundColor: "#f7f4fb",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«زیر سایه‌بان بنفش ویستریا، قول دادیم که همیشه هم‌قدمِ هم بمانیم»",
+      blessingLine: "حضور شما، زیباترین خوشه‌ی آویخته‌ی این تراس است",
+      dressCode:
+        "پوشش رسمی و رمانتیک (Garden Formal)؛ طیف یاسی پودری، شامپاینی، بنفش مخملی، سبز باغ و مشکی رسمی.",
+      musicTitle: "نکتورن ویستریا · پیانو و ویولن",
+    },
+  },
+  {
+    key: "ink-bloom-v1",
+    name: "شکوفایی جوهر",
+    version: "1.0.0",
+    description:
+      "حوض آبی آرام؛ یک قطره جوهر بچکانید تا در آب شکوفا شود، عکس زوج از دلِ جوهر بیرون بیاید و برگه‌های کاغذِ خیس با دعوت، تاریخ، موج‌های شب و اثر انگشت حضور روی آب شناور شوند.",
+    categorySlugs: ["modern", "romantic", "luxury", "dark"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#e7eef4 0%,#8b3a4a 42%,#1a2744 78%,#b89a5a 100%)",
+    defaultCustomization: {
+      primaryColor: "#1a2744",
+      secondaryColor: "#8b3a4a",
+      backgroundColor: "#d9e2ea",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«دو قطره که در یک حوض افتادند و دیگر از هم جدا نشدند»",
+      blessingLine: "اثر انگشت حضورتان، زیباترین لکهٔ این کاغذ است",
+      dressCode:
+        "پوشش آزادِ شاعرانه؛ لاجورد، شرابی جوهر، زیتونی مرکب و طلایی کهنه. سفید مطلق نپوشید.",
+      musicTitle: "صدای آب و پیانو",
+    },
+  },
+  {
+    key: "arya-paradise-v1",
+    name: "پردیسِ آریایی",
+    version: "1.0.0",
+    description:
+      "باغ بهشتی آریایی با سرو و دروازه‌ی لاجوردی؛ مهرِ زرینِ گل‌نقش را لمس کنید تا درها باز شوند، عکس زوج بدرخشد و فرمان عاشقانه با چهار گاه شب، تقویم پیمان و پیشکشِ نیلوفر نمایان شود.",
+    categorySlugs: ["traditional", "romantic", "luxury", "classic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#f3e9d5 0%,#c9a13b 35%,#1e3a6e 70%,#2a9d8f 100%)",
+    defaultCustomization: {
+      primaryColor: "#1e3a6e",
+      secondaryColor: "#c9a13b",
+      backgroundColor: "#f3e9d5",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«در پردیسِ دل، دو سرو کنار یک جوی روییدند و سایه‌شان تا ابد یکی شد»",
+      blessingLine: "حضور شما، فرخنده‌ترین نقشِ این پردیس است",
+      dressCode:
+        "پوشش رسمی با الهام از باغ‌های آریایی؛ لاجورد، زرین، فیروزه، زعفرانی و سروی تیره.",
+      musicTitle: "نوای چنگ و نی · چهارباغ",
+    },
+  },
+  {
+    key: "pars-waltz-v1",
+    name: "والسِ پارسه",
+    version: "1.0.0",
+    description:
+      "بارگاهِ رسمیِ هخامنشی با ستون‌های گاوسر، کنگره‌ی سنگی و مهرِ فروهر؛ روبانِ لاجوردی را بگشایید تا فرمان دعوت، گاه‌های شب، تقویم پیمان و پیشکشِ نیلوفر با همان رسمیتِ والسِ مگنولیا نمایان شود.",
+    categorySlugs: ["traditional", "luxury", "classic", "romantic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#ebe4d4 0%,#c9a84a 35%,#1a3568 72%,#8b3a2a 100%)",
+    defaultCustomization: {
+      primaryColor: "#1a3568",
+      secondaryColor: "#c9a84a",
+      backgroundColor: "#ebe4d4",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«در بارگاهِ دل، دو ستون زیر یک سقف روییدند و سایه‌شان تا ابد یکی شد»",
+      blessingLine: "حضور شما، فرخنده‌ترین نقشِ این بارگاه است.",
+      dressCode:
+        "پوشش رسمیِ شاهانه (Court Formal)؛ لاجورد، زرِ هخامنشی، فیروزه، سفال و سروی تیره.",
+      musicTitle: "والسِ پارسه · چنگ و نیِ آپادانا",
+    },
+  },
+  {
+    key: "twin-orbit-v1",
+    name: "مدارِ دو قلب",
+    version: "1.0.0",
+    description:
+      "کهکشانِ سه‌بعدی با گوی بلورین، حلقه‌های درهم و صورت‌فلکی قلب؛ گوی را لمس کنید تا مدار باز شود و نامه، شمارش معکوس، برنامه شب و RSVP با انیمیشن‌های نرم Motion نمایان گردد.",
+    categorySlugs: ["romantic", "luxury", "modern", "dark"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#0a0610 0%,#e8a0b0 42%,#d4b07a 72%,#f5e6d3 100%)",
+    defaultCustomization: {
+      primaryColor: "#e8a0b0",
+      secondaryColor: "#d4b07a",
+      backgroundColor: "#0a0610",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«دو قلب در یک مدار؛ تا ابد، بی‌انتها»",
+      blessingLine: "حضور شما، درخشان‌ترین ستاره‌ی این شب است.",
+      dressCode:
+        "شیک و رمانتیک؛ رز پودری، شامپاینی طلایی، سرمه‌ای شب و مشکی مخملی.",
+      musicTitle: "مدارِ دو قلب · پیانو و زهی",
+    },
+  },
+  {
+    key: "carpet-iran-v1",
+    name: "فرشِ ایران",
+    version: "1.0.0",
+    description:
+      "فرش‌نقشه‌ی ایران با نقش استان‌ها، حروف IRAN و طاق آزادی؛ مهر را لمس کنید تا فرش پهن شود و نامه، تقویم، نقشه‌ی شب و RSVP هفت‌رنگ با انیمیشن Motion نمایان گردد.",
+    categorySlugs: ["traditional", "luxury", "classic", "romantic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#f3eee6 0%,#8b1e2d 35%,#1a2744 68%,#c4a35a 100%)",
+    defaultCustomization: {
+      primaryColor: "#8b1e2d",
+      secondaryColor: "#c4a35a",
+      backgroundColor: "#f3eee6",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine:
+        "«دو تار دل روی یک دار؛ نقشی که تا ابد از هم جدا نمی‌شود»",
+      blessingLine: "قدم‌تان روی فرشِ شادی ما، زیباترین گره این نقش است.",
+      dressCode:
+        "پوشش رسمی ایرانی؛ لاکی، لاجورد، زرِ کارگاه، حنایی و شیریِ پشم. الهام از فرش و کاشی هفت‌رنگ.",
+      musicTitle: "فرشِ ایران · سنتور و کمانچه",
+    },
+  },
 
+  {
+    key: "love-loom-v1",
+    name: "دارِ عشق",
+    version: "1.0.0",
+    description:
+      "عکس عروس و داماد در طاق آزادی با قاب فرش و مهر زرین؛ حسِ ایران با حاشیه لاکی و نوار هفت‌رنگ، بدون نقشه در هیرو.",
+    categorySlugs: ["traditional", "luxury", "classic", "romantic"],
+    isFree: true,
+    price: 0,
+    thumbnailGradient:
+      "linear-gradient(165deg,#f3eee6 0%,#8b1e2d 34%,#1a2744 68%,#c4a35a 100%)",
+    defaultCustomization: {
+      primaryColor: "#8b1e2d",
+      secondaryColor: "#c4a35a",
+      backgroundColor: "#f3eee6",
+      showCountdown: true,
+      showMap: true,
+      showRsvp: true,
+      poeticLine: "«دو تار روی یک دار؛ نقشی که تا ابد از هم جدا نمی‌شود»",
+      blessingLine: "قدم‌تان روی این فرش، زیباترین گره‌ی نقش ماست.",
+      dressCode:
+        "پوشش رسمی ایرانی؛ لاکی، لاجورد، زرِ کارگاه، حنایی، فیروزه و شیری پشم.",
+      musicTitle: "دارِ عشق · سنتور و کمانچه",
+    },
+  },
+];

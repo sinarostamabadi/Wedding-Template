@@ -116,6 +116,14 @@ export default async function TemplatePreviewPage({ params }: PageProps) {
       </div>
 
       <div className="w-full overflow-x-hidden md:mx-auto md:min-h-screen md:max-w-md md:shadow-[0_0_60px_rgba(0,0,0,0.18)]">
+        <div
+          role="status"
+          className="sticky top-0 z-[55] border-b border-champagne/40 bg-white px-4 py-3 text-center shadow-[0_6px_16px_rgba(41,39,37,0.06)]"
+        >
+          <p className="font-display text-base text-charcoal md:text-lg">
+            عمارت شب‌های رویایی
+          </p>
+        </div>
         <Renderer
           preview
           data={sampleInvitation}
